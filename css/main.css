@@ -246,6 +246,12 @@ section.success {
   }
 }
 
+@media (max-width: 767px) {
+  .footer {
+    height: 122px;
+  }
+}
+
 footer {
   color: white;
 }
