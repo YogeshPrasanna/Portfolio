@@ -109,6 +109,22 @@ header .intro-text .skills {
   font-weight: 300;
 }
 
+.app-stack {
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.11);
+  color: #fff;
+  margin-top: 5px;
+}
+
+.stack-lang {
+  background: #17B595;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
