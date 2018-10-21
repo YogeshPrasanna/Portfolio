@@ -369,3 +369,31 @@ footer .footer-col {
   border-radius: 20px;
   border-radius: 90px;
 }
+
+.name:after {
+  content: "\258B";
+  color: #32c766;
+  animation: 1.2s blink infinite;
+  margin-left: 4px;
+}
+
+/* Cursor animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
